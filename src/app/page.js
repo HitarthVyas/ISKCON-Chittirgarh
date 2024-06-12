@@ -1,9 +1,9 @@
-import HomeFestivals from "@/components/Home/Festivals/HomeFestivals";
+'use client'
 
 export default function Home() {
   return (
     <main>
-      <HomeFestivals />
+     
     </main>
   );
 }
