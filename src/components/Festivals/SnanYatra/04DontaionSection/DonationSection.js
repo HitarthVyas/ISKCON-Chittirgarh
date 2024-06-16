@@ -7,6 +7,7 @@ import { Playfair_Display, Caveat ,Barlow} from "next/font/google";
 import PaymentSection from "../05PaymentSection/PaymentSection";
 import { Carousel } from "flowbite";
 import CarouselPoster from "@/components/Festivals/SnanYatra/02carousel/CarouselPoster";
+import MainPoster from "../../Janmastmi/03CircleCarousel/MainPoster";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -94,7 +95,7 @@ const DonationSection = () => {
                   </h5>
                   
                     <button
-                      className={`bg-[#fb3f3f] font-medium text-[20px] text-[#ffffff] py-2 px-4 md:py-2 md:px-4 rounded-full drop-shadow-xl ${playfair.className} transition-transform hover:scale-105`}
+                      className={`bg-[#fb3f3f] font-medium text-[20px] text-[#ffffff] py-2 px-4 md:py-2 md:px-4 rounded-lg drop-shadow-xl ${playfair.className} transition-transform hover:scale-105`}
                       onClick={() => handleScrollToPaymentSection()}
                     >
                       Donate Now
@@ -158,7 +159,6 @@ const DonationSection = () => {
           </div>
 
           <CarouselPoster />
-
           <div className="w-full h-16" id="paymentSection"></div>
           <div className=" mx-[60px] max-sm:mx-[2px] flex flex-col mb-20">
             <PaymentSection />

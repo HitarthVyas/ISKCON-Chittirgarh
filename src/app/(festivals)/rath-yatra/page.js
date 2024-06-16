@@ -1,14 +1,16 @@
-'use client'
+"use client";
 
-import MainPoster from '@/components/Festivals/RathYatra/01MainPoster/MainPoster'
-import React from 'react'
+import MainPoster from "@/components/Festivals/RathYatra/01MainPoster/MainPoster";
+import CardDescription from "@/components/Festivals/RathYatra/04CardDescription/CardDescription";
+import React from "react";
 
 const RathYatra = () => {
   return (
     <div>
-      <MainPoster />
+        <MainPoster />
+        <CardDescription />
     </div>
-  )
-}
+  );
+};
 
-export default RathYatra
+export default RathYatra;

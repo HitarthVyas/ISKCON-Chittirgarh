@@ -23,7 +23,7 @@ const MainPoster = () => {
     <>
       {/* poster section  */}
       <div
-        className="relative h-[80vh] w-full bg-cover bg-center flex justify-center items-center"
+        className="relative h-[80vh] w-full bg-cover bg-center flex justify-center items-center "
         style={{
           backgroundImage: "url('/Festivels/snanyatra/snanyatrapic3.jpg')",
         }}

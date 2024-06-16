@@ -1,0 +1,46 @@
+/* Component.module.css */
+
+.card {
+    /* Example styles similar to Tailwind CSS utility classes */
+    max-width: 24rem; /* Equivalent to max-w-sm */
+    border: 1px solid #e5e7eb; /* Equivalent to border */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    overflow: hidden; /* Equivalent to overflow-hidden */
+    background-color: #ffffff; /* Example background color */
+  
+    /* Example nested elements */
+    .img{
+      width: 100%; /* Full width image */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .text-xl {
+      font-size: 1.25rem; /* Example text-xl */
+      line-height: 1.75rem; /* Example tracking-tight */
+    }
+  
+    .text-gray-900 {
+      color: #1f2937; /* Example text-gray-900 */
+    }
+  
+    .dark:text-white {
+      color: #ffffff; /* Example dark:text-white */
+    }
+  
+    .flex {
+      display: flex; /* Example flex items-center */
+    }
+  
+    .items-center {
+      align-items: center; /* Example items-center */
+    }
+  
+    .text-yellow-300 {
+      color: #f59e0b; /* Example text-yellow-300 */
+    }
+  
+    /* Add more styles as needed */
+  }
+  
+  /* Additional styles can be added for other elements */
+  
