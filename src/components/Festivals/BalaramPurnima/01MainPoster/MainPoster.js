@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Playfair_Display, Barlow } from "next/font/google";
 import { motion, AnimatePresence } from "framer-motion";
-import RadhatmiDiscription from "../02RadhatmiDiscription/RadhatmiDiscription";
+import BalaramPurnimaDescription from "../02BalaramPurnimaDescription/BalaramPurnimaDescription";
 
 const bar = Barlow({
   subsets: ["latin"],
@@ -18,7 +18,7 @@ const zoomVariants = {
   initial: { scale: 1 },
   animate: { scale: 1.1 },
 };
- 
+
 const MainPoster = () => {
   const handleScrollToPaymentSection = () => {
     const paymentSection = document.getElementById("paymentSection");
@@ -36,6 +36,7 @@ const MainPoster = () => {
 
     return () => clearInterval(intervalId); // Clean up the interval on component unmount
   }, []);
+
   return (
     <>
       <div className="relative h-[80vh] w-full overflow-hidden">
@@ -53,7 +54,7 @@ const MainPoster = () => {
         </AnimatePresence>
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 flex justify-center items-center flex-col">
           <motion.h1
-            className={`text-white text-6xl md:text-7xl text-center mt-20 ${bar.className}`}
+            className={`text-white text-5xl md:text-7xl text-center mt-20 ${bar.className}`}
             style={{
               textShadow:
                 "2px 2px black, 20px 20px 50px #d17a29, -20px -20px 50px #d17a29, -20px 20px 50px #d17a29, 20px -20px 50px black",
@@ -62,7 +63,7 @@ const MainPoster = () => {
             animate={{ scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-             Radhashtami
+            BalaramPurnima
           </motion.h1>
           <div style={{ marginTop: "20px" }}>
             <motion.button
@@ -89,9 +90,8 @@ const MainPoster = () => {
           </div>
         </div>
       </div>
-      <div className="relative bg-[url('/Festivels/rathyatra/curve.svg')] h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"></div> 
-
-      <RadhatmiDiscription/>
+      <div className="relative bg-[url('/Festivels/rathyatra/curve.svg')] h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"></div>
+      <BalaramPurnimaDescription />
     </>
   );
 };
