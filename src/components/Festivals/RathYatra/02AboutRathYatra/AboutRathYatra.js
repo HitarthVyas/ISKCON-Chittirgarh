@@ -11,11 +11,11 @@ const play = Playfair({
 
 const bar = Barlow({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], 
 });
 
 const AboutRathYatra = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false); 
   const [imageRef, inView] = useInView({
     triggerOnce: true,
     threshold: 0.3,

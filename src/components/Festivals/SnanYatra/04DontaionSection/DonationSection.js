@@ -7,7 +7,7 @@ import { Playfair_Display, Caveat ,Barlow} from "next/font/google";
 import PaymentSection from "../05PaymentSection/PaymentSection";
 import { Carousel } from "flowbite";
 import CarouselPoster from "@/components/Festivals/SnanYatra/02carousel/CarouselPoster";
-import MainPoster from "../../Janmastmi/03CircleCarousel/MainPoster";
+
 
 const playfair = Playfair_Display({
   subsets: ["latin"],

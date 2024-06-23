@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
         <MainPoster />
-        <DonationcCard />
+        <DonationcCard /> 
     </div>
   )
 }

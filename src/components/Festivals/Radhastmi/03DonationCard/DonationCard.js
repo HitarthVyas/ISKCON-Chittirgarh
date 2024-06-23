@@ -10,8 +10,9 @@ import {
 import { motion } from "framer-motion";
 import { Barlow } from "next/font/google";
 import ChoiceDonation from "../../RathYatra/05ChoiceDonation/ChoiceDonation";
-import MainPoster from "../04CircleCarousel/MainPoster";
 import PaymentSection from "../../SnanYatra/05PaymentSection/PaymentSection";
+import SerialCarousel from "../04SerialCarousel/SerialCarousel";
+
 
 const bar = Barlow({
   subsets: ["latin"],
@@ -100,7 +101,7 @@ const DonationcCard = () => {
       <div className="w-full mt-20">
         <ChoiceDonation />
       </div>
-      <MainPoster />
+      <SerialCarousel />
       <div className="mx-[60px] max-sm:mx-[2px] flex flex-col pb-20">
         <PaymentSection />
       </div>

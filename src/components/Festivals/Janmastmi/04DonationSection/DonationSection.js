@@ -3,8 +3,9 @@ import { Autour_One } from "next/font/google";
 import React from "react";
 import { motion } from "framer-motion";
 import ChoiceDonation from "../../RathYatra/05ChoiceDonation/ChoiceDonation";
-import MainPoster from "../03CircleCarousel/MainPoster";
 import PaymentSection from "../../SnanYatra/05PaymentSection/PaymentSection";
+import SerialCarousel from "../03SerialCarousel/SerialCarousel";
+
 
 const autho = Autour_One({
   subsets: ["latin"],
@@ -94,7 +95,7 @@ const DonationSection = () => {
       </div>
 
       <ChoiceDonation />
-      <MainPoster />
+      <SerialCarousel />
       <div className="w-full" id="paymentSection "></div>
       <div className="mx-[60px] max-sm:mx-[2px] flex flex-col pb-20">
         <PaymentSection />
