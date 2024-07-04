@@ -20,7 +20,7 @@ const VaishanvSevaDiscription = () => {
             "linear-gradient(to bottom, #ca0b18 10%, #e75e16 90%, #ffaf2f )",
         }}
       >
-        <div className=" flex flex-col px-60 max-lg:px-5 mb-5">
+        <div className=" flex flex-col px-60 max-lg:px-5 mb-20">
           <div className="py-2 text-center">
             <h2
               className={`text-[#FFD700] text-[64px] ${Architects.className}`}
