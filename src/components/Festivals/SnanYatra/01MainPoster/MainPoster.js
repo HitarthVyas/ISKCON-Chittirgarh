@@ -61,11 +61,11 @@ const MainPoster = () => {
             }}
             initial={{ scale: 0.8 }}
             animate={{ scale: 1 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.8 }} 
           >
-            BalaramPurnima
+            Snan Yatra
           </motion.h1>
-          <div style={{ marginTop: "20px" }}>
+          <div style={{ marginTop: "20px" }}> 
             <motion.button
               onClick={() => handleScrollToPaymentSection()}
               style={{

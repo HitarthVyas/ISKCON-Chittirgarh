@@ -54,7 +54,7 @@ const DonationSection = () => {
   };
 
   return (
-    <div className="relative py-20">
+    <div className="relative py-5">
         <div
           className="absolute inset-0 bg-gradient-to-b"
           style={{
@@ -67,7 +67,7 @@ const DonationSection = () => {
 
         <div className="relative">
           <div className="mx-3 text-center  p-2">
-            <h2 className={`text-[32px] text-[#e82277] font-bold tracking-widest ${bar.className}`}>Donation Seva</h2>
+            <h2 className={`text-[28px] text-[#e82277] font-bold tracking-widest ${bar.className}`}>Donation Seva</h2>
           </div>
           <div className="flex flex-wrap justify-center mt-7 pb-10 px-[150px] max-[1100px]:px-[20px] max-[330px]:mx-2">
             {/* Rendering the first row */}
@@ -103,7 +103,7 @@ const DonationSection = () => {
             ))}
           </div>
           {/* donate your choice section  */}
-          <div className="flex justify-center items-center mb-20 mt-8 mx-8">
+          <div className="flex justify-center items-center mb-20 mt-8 mx-80 max-[1000px]:mx-[20px]">
             <div
               className="basis-3/5 max-2xl:basis-full  flex flex-col lg:flex-row p-5 lg:p-10 flex-wrap"
               style={{ boxShadow: "29px 29px 60px 0px rgba(0, 0, 0, 0.4)" }}
@@ -112,7 +112,7 @@ const DonationSection = () => {
                 <div className=" flex flex-col">
                   <div className="pb-5 text-center sm:text-left">
                     <h1
-                      className={`font-bold text-[#2b2859] text-[36px] ${playfair.className}`}
+                      className={`font-bold text-[#2b2859] text-[28px] ${playfair.className}`}
                     >
                       Donate Your choice
                     </h1>
@@ -135,7 +135,7 @@ const DonationSection = () => {
                   style={{
                     background: "#0c82f2",
                     color: "white",
-                    padding: "21px 55px",
+                    padding: "20px 30px",
                     fontSize: "15px",
                     cursor: "pointer",
                     borderRadius: "10px",

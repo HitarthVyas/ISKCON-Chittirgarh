@@ -15,7 +15,7 @@ const ChoiceDonation = () => {
   };
   
   return (
-    <div className="flex justify-center items-center mb-20 mt-8 mx-8">
+    <div className="flex justify-center items-center mb-20 mt-8 mx-80 max-[1000px]:mx-[20px]">
     <div
       className="basis-3/5 max-2xl:basis-full  flex flex-col lg:flex-row p-5 lg:p-10 flex-wrap"
       style={{ boxShadow: "29px 29px 60px 0px rgba(0, 0, 0, 0.4)" }}
@@ -24,7 +24,7 @@ const ChoiceDonation = () => {
         <div className=" flex flex-col">
           <div className="pb-5 text-center sm:text-left">
             <h1
-              className={`font-bold text-[#2b2859] text-[36px] ${playfair.className}`}
+              className={`font-bold text-[#2b2859] text-[28px] ${playfair.className}`}
             >
               Donate Your choice
             </h1>
@@ -47,7 +47,7 @@ const ChoiceDonation = () => {
           style={{
             background: "#0c82f2",
             color: "white",
-            padding: "21px 55px",
+            padding: "20px 30px",
             fontSize: "15px",
             cursor: "pointer",
             borderRadius: "10px",

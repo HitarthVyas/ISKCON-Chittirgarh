@@ -6,12 +6,12 @@ import JanmastmiDiscription from "../02JanmastmiDiscription/JanmastmiDiscription
 
 const bar = Barlow({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], 
 });
 
 const images = [
   "/Festivels/Janmasthmi/RK.JPG",
-  "/Festivels/Janmasthmi/srimati.png",
+  "/Festivels/Janmasthmi/srimati.png", 
 ];
 
 const zoomVariants = {
@@ -39,7 +39,7 @@ const MainPoster = () => {
 
   return (
     <>
-      <div className="relative h-[80vh] w-full overflow-hidden">
+     <div className="relative h-[80vh] w-full overflow-hidden">
         <AnimatePresence initial={false}>
           <motion.div
             key={currentImageIndex} // Use the index as key to trigger AnimatePresence
@@ -54,7 +54,7 @@ const MainPoster = () => {
         </AnimatePresence>
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 flex justify-center items-center flex-col">
           <motion.h1
-            className={`text-white text-6xl md:text-7xl text-center mt-20 ${bar.className}`}
+            className={`text-white text-3xl md:text-5xl text-center mt-20 ${bar.className}`}
             style={{
               textShadow:
                 "2px 2px black, 20px 20px 50px #d17a29, -20px -20px 50px #d17a29, -20px 20px 50px #d17a29, 20px -20px 50px black",
@@ -63,7 +63,7 @@ const MainPoster = () => {
             animate={{ scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            Krishna Janmastmi
+            Krishna Janmashtami
           </motion.h1>
           <div style={{ marginTop: "20px" }}>
             <motion.button
@@ -73,11 +73,11 @@ const MainPoster = () => {
                 background: "transparent",
                 color: "white",
                 padding: "10px 20px",
-                fontSize: "24px",
+                fontSize: "20px",
                 cursor: "pointer",
                 borderRadius: "30px",
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                fontWeight: "600",
+                fontWeight: "400",
               }}
               whileHover={{ scale: 1.1, backgroundColor: "#e82277" }}
               onMouseLeave={(e) => {

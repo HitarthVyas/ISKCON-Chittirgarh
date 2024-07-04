@@ -13,14 +13,12 @@ import ChoiceDonation from "../../RathYatra/05ChoiceDonation/ChoiceDonation";
 import PaymentSection from "../../SnanYatra/05PaymentSection/PaymentSection";
 import SerialCarousel from "../04SerialCarousel/SerialCarousel";
 
-
 const bar = Barlow({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const DonationcCard = () => {
-
+const DonationCard = () => {
   const handleScrollToPaymentSection = () => {
     const paymentSection = document.getElementById("paymentSection");
     if (paymentSection) {
@@ -28,27 +26,26 @@ const DonationcCard = () => {
     }
   };
 
-
   const cardData = [
     {
-      name: "Natalie Paisley",
-      title: "CEO / Co-Founder",
-      image: "https://docs.material-tailwind.com/img/team-3.jpg",
+      name: "Garland for Srimati Radha Rani",
+      title: "7,000",
+      image: "/Festivels/radhasthmi/img1.jpg",
     },
     {
-      name: "John Doe",
-      title: "CTO",
-      image: "https://docs.material-tailwind.com/img/team-2.jpg",
+      name: "Jewellery for Srimati Radha Rani",
+      title: "15,000",
+      image: "/Festivels/radhasthmi/img5.jpg",
     },
     {
-      name: "Jane Smith",
-      title: "CFO",
-      image: "https://docs.material-tailwind.com/img/team-1.jpg",
+      name: "Maha Abhishek",
+      title: "40,000",
+      image: "/Festivels/radhasthmi/img3.jpg",
     },
     {
-      name: "Mike Johnson",
-      title: "COO",
-      image: "https://docs.material-tailwind.com/img/team-4.jpg",
+      name: "56 Bhog Seva",
+      title: "11,000",
+      image: "/Festivels/radhasthmi/img4.jpg",
     },
   ];
 
@@ -71,26 +68,36 @@ const DonationcCard = () => {
               transition={{ duration: 1.9, ease: "easeOut" }}
               whileHover={{ scale: 1.05 }}
             >
-              <Card className="w-80 bg-yellow-500">
-                <CardHeader floated={false} className="h-74 overflow-hidden">
+              <Card className="w-80 h-[450px] bg-yellow-500">
+                <CardHeader floated={false} className="h-[240px] overflow-hidden">
                   <motion.img
                     src={person.image}
                     alt="profile-picture"
-                    className="h-full w-full object-cover"
+                    className="w-full h-full object-top object-cover"
                     whileHover={{ scale: 1.1 }}
                   />
                 </CardHeader>
-                <CardBody className="text-center">
-                  <Typography variant="h4" color="blue-gray" className="mb-2">
+                <CardBody className="text-center h-[120px] flex flex-col justify-center">
+                  <Typography
+                    variant="h4"
+                    color="blue-gray"
+                    className="mb-2 text-[24px] font-bold text-blue-800"
+                    style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 0.3)" }}
+                  >
                     {person.name}
                   </Typography>
-                  <Typography color="blue-gray" className="font-medium">
+                  <Typography color="blue-gray" className=" font-bold text-[20px] text-black-900">
                     {person.title}
                   </Typography>
                 </CardBody>
                 <CardFooter className="flex justify-center gap-7 pt-2">
                   <motion.div whileHover={{ scale: 1.1 }}>
-                    <Button color="blue"  onClick={() => handleScrollToPaymentSection()} >Donate Now</Button>
+                    <Button
+                      color="blue"
+                      onClick={() => handleScrollToPaymentSection()}
+                    >
+                      Donate Now
+                    </Button>
                   </motion.div>
                 </CardFooter>
               </Card>
@@ -109,4 +116,4 @@ const DonationcCard = () => {
   );
 };
 
-export default DonationcCard;
+export default DonationCard;

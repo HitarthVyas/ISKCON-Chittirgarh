@@ -50,7 +50,7 @@ const StyledSwiper = styled(Swiper)`
 const MainPoster = () => {
   return (
     <>
-      <div className="text-center text-[32px] text-[#e82277] font-bold">
+      <div className="text-center text-[28px] text-[#e82277] font-bold">
         <h1 className={`${bar.className} tracking-widest`}>Snan Yatra 2k23</h1>
       </div>
       <StyledSwiper

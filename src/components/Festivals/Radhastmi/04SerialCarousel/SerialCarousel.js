@@ -51,7 +51,7 @@ const SerialCarousel = () => {
     return (
         <div className="mb-20">
           <div className="text-center text-[32px] text-[#e82277] font-bold">
-            <h1 className={`${bar.className} tracking-widest`}>Rath Yatra 2k23</h1>
+            <h1 className={`${bar.className} tracking-widest`}>Radhashtami 2k23</h1>
           </div>
           <StyledSwiper
             effect={"coverflow"}
