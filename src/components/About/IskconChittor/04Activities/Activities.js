@@ -56,7 +56,7 @@ const Activities = () => {
         transition={{ duration: 0.5 }}
         className={`${tillana.className} text-[#e1dfea] text-center font-semibold mb-8`}
       >
-        Let's Get Together
+        Let&apos;s Get Together
       </motion.h1>
       <div className="flex flex-wrap gap-10 max-w-screen-lg m-auto justify-center">
         {chittorActivities.map((activity, i) => (

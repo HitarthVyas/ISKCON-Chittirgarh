@@ -15,11 +15,26 @@ const quint = Metal({
 });
 
 const Details = () => {
-  const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true, threshold: 0.8 });
-  const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: true, threshold: 0.8 });
-  const { ref: ref3, inView: inView3 } = useInView({ triggerOnce: true, threshold: 0.8 });
-  const { ref: ref4, inView: inView4 } = useInView({ triggerOnce: true, threshold: 0.8 });
-  const { ref: ref5, inView: inView5 } = useInView({ triggerOnce: true, threshold: 0.8 });
+  const { ref: ref1, inView: inView1 } = useInView({
+    triggerOnce: true,
+    threshold: 0.8,
+  });
+  const { ref: ref2, inView: inView2 } = useInView({
+    triggerOnce: true,
+    threshold: 0.8,
+  });
+  const { ref: ref3, inView: inView3 } = useInView({
+    triggerOnce: true,
+    threshold: 0.8,
+  });
+  const { ref: ref4, inView: inView4 } = useInView({
+    triggerOnce: true,
+    threshold: 0.8,
+  });
+  const { ref: ref5, inView: inView5 } = useInView({
+    triggerOnce: true,
+    threshold: 0.8,
+  });
 
   const fadeIn = {
     hidden: { opacity: 0 },
@@ -46,8 +61,8 @@ const Details = () => {
             >
               Abhay Charan Bhaktivedanta Swami Srila Prabhupada, born on
               September 1, 1896, in British-ruled India, initially joined
-              Mahatma Gandhi's civil non-cooperation movement. His life took a
-              significant turn in 1922 when he met Srila Bhaktisiddhanta
+              Mahatma Gandhi&apos;s civil non-cooperation movement. His life
+              took a significant turn in 1922 when he met Srila Bhaktisiddhanta
               Saraswati Thakur, a respected religious leader and scholar. Srila
               Bhaktisiddhanta encouraged him to bring the teachings of Lord
               Krishna to the West. Prabhupada became his follower in 1933 and
@@ -90,11 +105,11 @@ const Details = () => {
               className={`${tenali.className} mt-5`}
             >
               Over the next 11 years, Prabhupada traveled the globe 14 times,
-              spreading Krishna's teachings across six continents and attracting
-              followers from diverse backgrounds. Under his guidance, ISKCON
-              established numerous centers and projects worldwide, including
-              rural communities, temples, educational institutes, and the
-              largest vegetarian food relief program. Returning to India, he
+              spreading Krishna&apos;s teachings across six continents and
+              attracting followers from diverse backgrounds. Under his guidance,
+              ISKCON established numerous centers and projects worldwide,
+              including rural communities, temples, educational institutes, and
+              the largest vegetarian food relief program. Returning to India, he
               opened several temples, including major centers in Mayapur and
               Vrindavana.
             </motion.p>
@@ -105,13 +120,14 @@ const Details = () => {
               animate={inView5 ? "visible" : "hidden"}
               className={`${tenali.className} mt-5`}
             >
-              Prabhupada's most significant contribution is his extensive
+              Prabhupada&apos;s most significant contribution is his extensive
               literary work, authoring over 70 volumes on Krishna tradition. His
               writings, noted for their depth, clarity, and adherence to
               tradition, are highly regarded by scholars and used as textbooks
-              in colleges. His notable works include "Bhagavad Gita As It Is,"
-              the 30-volume "Srimad Bhagavatam," and the 17-volume "Sri
-              Chaitanya Charitamrita," all translated into 76 languages.
+              in colleges. His notable works include &quot;Bhagavad Gita As It
+              Is,&quot; the 30-volume &quot;Srimad Bhagavatam,&quot; and the
+              17-volume &quot;Sri Chaitanya Charitamrita,&quot; all translated
+              into 76 languages.
             </motion.p>
           </div>
         </div>
