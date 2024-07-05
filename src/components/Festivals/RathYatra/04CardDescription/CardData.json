@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Gaja Uddharana Besha",
+      "price": "5,000",
+      "imageSrc": "/Festivels/rathyatra/Gaja-Uddharana-Besha.jpg",
+      "rating": 5.0
+    },
+    {
+      "id": 2,
+      "title": "Gajanana Besha Hati Besha",
+      "price": "8,000",
+      "imageSrc": "/Festivels/rathyatra/Gajanana-Besha-Hati-Besa.jpg",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "title": "Lakshmi Narayana Besha",
+      "price": "12,000",
+      "imageSrc": "/Festivels/rathyatra/Lakshmi-Narayana-Besha.jpg",
+      "rating": 4.5
+    }
+  ]
+  

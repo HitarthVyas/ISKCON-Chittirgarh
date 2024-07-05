@@ -5,13 +5,10 @@ import AnimatedText from "./AnimatedText";
 
 const Hero = () => {
   return (
-    <section>
-      <div>
-        <img
-          src="/Images/Home/iskcon-chittor-bg.jpeg"
-          className="w-full h-[100vh] object-cover bg-top"
-        />
-      </div>
+    <section
+      className="w-full h-[100vh] bg-cover bg-fixed"
+      style={{ backgroundImage: "url('/Images/Home/iskcon-chittor-bg.jpeg')" }}
+    >
       <div className="inset-0 bg-black/50 absolute" />
       <div className="absolute top-[15vh] w-full">
         <motion.div

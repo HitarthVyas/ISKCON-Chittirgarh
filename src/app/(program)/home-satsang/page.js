@@ -7,6 +7,7 @@ import Contact from "@/components/Program/HomeSatsang/04Contact/Contact"
 const page = () => {
   return (
     <section>
+      {/* <Hero /> */}
       <Intro />
       <Activities />
       <Contact />
