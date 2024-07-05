@@ -97,8 +97,8 @@ const SrilaPrabhupada = () => {
             />
           </svg>
           <p className={`text-[#2e5697] text-xl ${metal.className}`}>
-            "Prthivite ache yata nagaradi-grama, sarvatra pracara haibe mora
-            (Krishna) nama"
+          &quot;Prthivite ache yata nagaradi-grama, sarvatra pracara haibe mora
+            (Krishna) nama&quot;
           </p>
         </div>
 
@@ -123,9 +123,9 @@ const SrilaPrabhupada = () => {
           transition={{ duration: 1, ease: "easeInOut", delay: 0.8 }}
           className="text-justify mt-4 text-base hidden sm:block"
         >
-          Under Śrīla Prabhupāda's leadership, ISKCON grew rapidly worldwide by
+          Under Śrīla Prabhupāda&apos;s leadership, ISKCON grew rapidly worldwide by
           1970, with him empowering the Governing Body Commission to oversee its
-          expansion. Despite challenges, Prabhupāda's steadfast faith in Lord
+          expansion. Despite challenges, Prabhupāda&apos;s steadfast faith in Lord
           Kṛṣṇa and commitment to spreading devotional service established
           ISKCON as a powerful force for global spiritual transformation.
         </motion.p>

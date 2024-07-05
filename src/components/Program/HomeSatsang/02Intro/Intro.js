@@ -41,7 +41,7 @@ const Intro = () => {
             }}
           >
             <h5 className="text-justify">
-              It's a two-hour event held in different neighborhoods in Pune,
+              It&apos;s a two-hour event held in different neighborhoods in Pune,
               featuring kirtans, discourses, meditation sessions, and delightful
               Prasadam.
             </h5>
@@ -56,7 +56,7 @@ const Intro = () => {
             }}
           >
             Home Satsang is a gathering of individuals seeking spiritual truth.
-            Alongside ISKCON Chittorgarh's various programs, we can arrange a
+            Alongside ISKCON Chittorgarh&apos;s various programs, we can arrange a
             personalized session to be hosted at your residence.
           </motion.p>
           <motion.button

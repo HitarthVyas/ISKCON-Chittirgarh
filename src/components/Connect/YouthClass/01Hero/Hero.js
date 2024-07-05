@@ -32,8 +32,8 @@ const Hero = () => {
                 transition={{ duration: 0.5, delay: 0.4 }}
                 className="mb-4"
               >
-                ISKCON Chittorgarh's seminars and workshops promote the study of
-                Srila Prabhupada's books and a lifestyle based on Vedic
+                ISKCON Chittorgarh&apos;s seminars and workshops promote the study of
+                Srila Prabhupada&apos;s books and a lifestyle based on Vedic
                 scriptures. They encourage the application and teaching of
                 philosophical principles, practical lessons from scriptures, and
                 cooperation despite differences.
@@ -43,7 +43,7 @@ const Hero = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
               >
-                These programs educate youth on Srila Prabhupada's teachings
+                These programs educate youth on Srila Prabhupada&apos;s teachings
                 through interactive classes. Weekend sessions focus on applying
                 Vedic wisdom to modern challenges and offer courses like
                 &apos;Art of Mind Control&apos; and &apos;Secrets of
