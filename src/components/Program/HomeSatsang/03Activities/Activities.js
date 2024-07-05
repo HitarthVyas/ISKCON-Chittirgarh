@@ -19,7 +19,7 @@ const Activities = () => {
       <div className="flex max-w-screen-xl m-auto justify-evenly gap-4 gap-y-10 flex-wrap">
         {activities.map((activity, index) => (
           <div
-            key={i}
+            key={index}
             className="w-72 bg-white rounded-md border-b-4 border-b-[#9eadc6] shadow-lg border border-gray-300 transition-all duration-500 hover:scale-105"
           >
             <img
