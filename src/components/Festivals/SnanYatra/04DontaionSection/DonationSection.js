@@ -5,8 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Playfair_Display, Caveat ,Barlow} from "next/font/google";
 import PaymentSection from "../05PaymentSection/PaymentSection";
-import { Carousel } from "flowbite";
-import CarouselPoster from "@/components/Festivals/SnanYatra/02carousel/CarouselPoster";
 import ChoiceDonation from "../../RathYatra/05ChoiceDonation/ChoiceDonation";
 
 
