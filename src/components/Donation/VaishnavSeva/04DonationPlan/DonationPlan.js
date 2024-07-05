@@ -52,22 +52,22 @@ const item = [
 const donationOptions = [
   {
     meals: 21,
-    amount: "₹ 525",
+    amount: "₹ 1,575",
     content: "Do your part and contribute this to serve the Needy.",
   },
   {
     meals: 51,
-    amount: "₹ 1,272",
+    amount: "₹ 3,825",
     content: "Help us to feed the Needy, do you part by donation.",
   },
   {
     meals: 101,
-    amount: "₹ 2,525",
+    amount: "₹ 7,575",
     content: "Provide the Food to 101 Needy People. Support us.",
   },
   {
     meals: 151,
-    amount: "₹ 3,775",
+    amount: "₹ 11,325",
     content: "You can help us to feed the hungry. Support us.",
   },
 ];

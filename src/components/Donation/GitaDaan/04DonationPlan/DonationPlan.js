@@ -26,21 +26,18 @@ const Architects = Architects_Daughter({
 const item = [
   {
     id: "1",
-    number: "Donate 251 Meals",
-    Price: "₹ 6,275",
-    content:  "~ Do your part and contribute this amount.",
+    number: "Gita Daan -320 Books",
+    Price: "₹ 73,600",
   },
   {
     id: "2",
-    number: "Donate 501 Meals",
-    Price: "₹ 12,275",
-    content:  "~ Do your part and contribute this amount.",
+    number: "Gita Daan -800 Books",
+    Price: "₹ 1,84,000",
   },
   {
     id: "3",
-    number: "Donate 1001 Meals",
-    Price: "₹ 25,025",
-    content:  "~ Do your part and contribute this amount.",
+    number: "Gita Daan -1600 Books",
+    Price: "₹ 3,68,000",
   },
   {
     id: "4",
@@ -51,24 +48,24 @@ const item = [
 
 const donationOptions = [
   {
-    meals: 21,
-    amount: "₹ 525",
-    content: "Do your part and contribute this to serve the Needy.",
+    meals: 32,
+    amount: "₹ 7,360",
+    content: "Serve the Lord by distributing the Knowledge",
   },
   {
-    meals: 51,
-    amount: "₹ 1,272",
-    content: "Help us to feed the Needy, do you part by donation.",
+    meals: 64,
+    amount: "₹ 14,720",
+    content: "Serve the Lord by distributing the Knowledge",
   },
   {
-    meals: 101,
-    amount: "₹ 2,525",
-    content: "Provide the Food to 101 Needy People. Support us.",
+    meals: 96,
+    amount: "₹ 22,080",
+    content: "Serve the Lord by distributing the Knowledge",
   },
   {
-    meals: 151,
-    amount: "₹ 3,775",
-    content: "You can help us to feed the hungry. Support us.",
+    meals: 160,
+    amount: "₹ 36,800",
+    content: "Serve the Lord by distributing the Knowledge",
   },
 ];
 
@@ -95,8 +92,8 @@ const DonationPlan = () => {
             >
               <div className="px-2">
                 <h2 className="font-bold mb-2 text-center ">
-                  <span className="text-[23px] block mb-4 text-[#FFD700]">
-                    Donate {option.meals} Meal
+                  <span className="text-[19px] block mb-4 text-[#FFD700]">
+                    Gita Daan - {option.meals} Books
                   </span>
                   <span className= {`${Architects.className} text-[20px] text-[#ffffff]`}> {option.content}</span>
                 </h2>

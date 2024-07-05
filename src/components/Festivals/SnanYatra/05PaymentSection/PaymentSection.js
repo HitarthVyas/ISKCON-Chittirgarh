@@ -11,9 +11,9 @@ const merry = Merriweather_Sans({
 });
 
 const textData = [
-  { category: "Account No:", content: "09871450000385" },
-  { category: "Account Name:", content: "ISKCON JAIPUR" },
-  { category: "IFSC:", content: "HDFC0000987" },
+  { category: "Account No:", content: "50100405682600" }, 
+  { category: "Account Name:", content: "ISKCON Chittor" }, 
+  { category: "IFSC:", content: "HDFC0000786" }, 
 ];
 
 const handleCopy = (text) => {
