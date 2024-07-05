@@ -14,7 +14,7 @@ const MainPoster = () => {
       <div className={styles.mainPosterWrapper}>
         <div className={styles.gallery}>
           <img
-            src="/Donation/AnnaDaan/daan1.jpg"
+            src="/Donation/VigrahSeva/img1.jpg"
             alt="many clothes and pictures"
           />
           <img

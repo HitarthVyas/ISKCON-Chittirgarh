@@ -26,24 +26,36 @@ const Architects = Architects_Daughter({
 const item = [
   {
     id: "1",
-    number: "Donate 251 Meals",
-    Price: "₹ 6,275",
-    content:  "~ Do your part and contribute this amount.",
+    number: "Mangal Kheer",
+    Price: "₹ 3100",
   },
   {
     id: "2",
-    number: "Donate 501 Meals",
-    Price: "₹ 12,275",
-    content:  "~ Do your part and contribute this amount.",
+    number: "Bal Bhoga",
+    Price: "₹ 2100",
   },
   {
     id: "3",
-    number: "Donate 1001 Meals",
-    Price: "₹ 25,025",
-    content:  "~ Do your part and contribute this amount.",
+    number: "Raj Bhoga",
+    Price: "₹ 5500",
   },
   {
     id: "4",
+    number: "Milk & Fruit",
+    Price: "₹ 5100",
+  },
+  {
+    id: "5",
+    number: "Sandhya Bhoga",
+    Price: "₹ 2100",
+  },
+  {
+    id: "6",
+    number: "Deity Garland & Flower Decoration",
+    Price: "₹ 21,000",
+  },
+  {
+    id: "7",
     title: "General Donation",
     Price: "Any No. of Meals ~ You want to Donate.",
   },
@@ -135,7 +147,7 @@ const DonationPlan = () => {
                         className={`text-[34px] text-start max-sm:text-center font-light md:font-medium text-white ${bar.className}`}
                         style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.5)" }}
                       >
-                        <h2>{item.id === "4" ? item.title : item.number}</h2>
+                        <h2>{item.id === "7" ? item.title : item.number}</h2>
                       </span>
                     </div>
                     <div className="flex sm:text-left text-center">

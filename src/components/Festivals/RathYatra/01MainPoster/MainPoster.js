@@ -9,12 +9,12 @@ const playfair = Playfair_Display({
 });
 
 const bar = Barlow({
-  subsets: ["latin"],
+  subsets: ["latin"], 
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 const images = [
-  "/Festivels/rathyatra/01rathayatra.jpeg",
+  "/Festivels/rathyatra/poster1.jpg",
   "/Festivels/rathyatra/puri-rath-yatra.jpg",
 ];
 
