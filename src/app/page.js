@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-import HomeFestivals from "@/components/Home/Festivals/HomeFestivals";
-=======
 import Hero from "@/components/Home/01Hero/Hero";
 import Festival from "@/components/Home/02Festivals/Festival";
 import HomeData from "@/components/Home/03Counter/HomeData";
@@ -11,14 +8,10 @@ import Schedule from "@/components/Home/07Schedule/Schedule";
 import Donation from "@/components/Home/08Donation/Donation";
 import Connect from "@/components/Home/09Connect/Connect";
 import Program from "@/components/Home/10Programs/Program";
->>>>>>> Stashed changes
 
 export default function Home() {
   return (
     <main>
-<<<<<<< Updated upstream
-      <HomeFestivals />
-=======
       <Hero />
       <Festival />
       <HomeData />
@@ -29,7 +22,6 @@ export default function Home() {
       <Donation />
       <Connect />
       <Program />
->>>>>>> Stashed changes
     </main>
   );
 }
