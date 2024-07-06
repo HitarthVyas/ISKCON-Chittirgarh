@@ -14,24 +14,24 @@ const MainPoster = () => {
       <div className={styles.mainPosterWrapper}>
         <div className={styles.gallery}>
           <img
-            src="/Donation/AnnaDaan/daan1.jpg"
+            src="/Donation/GitaDaan/img1.jpeg"
             alt="many clothes and pictures"
           />
           <img
-            src="/Festivels/snanyatra/Screenshot(29).png"
+            src="/Donation/GitaDaan/img2.jpeg"
             alt="someone preparing artisanal coffee"
           />
-          <img src="/Festivels/snanyatra/Screenshot(30).png" alt="some tee" />
+          <img src="/Donation/GitaDaan/img3.jpeg" alt="some tee" />
           <img
-            src="/Festivels/snanyatra/manglapuja.jpg"
+            src="/Donation/GitaDaan/img4.jpeg"
             alt="an empty table in a restaurant"
           />
           <img
-            src="/Festivels/snanyatra/abhishek.jpg"
+            src="/Donation/GitaDaan/img5.jpeg"
             alt="a laptop with a notebook"
           />
           <img
-            src="/Festivels/snanyatra/dress.jpg"
+            src="/Donation/GitaDaan/img6.jpeg"
             alt="a laptop and many books around it"
           />
         </div>
