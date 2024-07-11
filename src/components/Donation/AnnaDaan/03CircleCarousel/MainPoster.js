@@ -18,7 +18,7 @@ const MainPoster = () => {
             alt="many clothes and pictures"
           />
           <img
-            src="/Festivels/snanyatra/Screenshot(29).png"
+            src="/Donation/AnnaDaan/anna-daan1.jpg"
             alt="someone preparing artisanal coffee"
           />
           <img src="/Festivels/snanyatra/Screenshot(30).png" alt="some tee" />
