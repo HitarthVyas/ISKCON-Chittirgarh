@@ -1,0 +1,61 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.rs-calendar-bordered {
+  border: 2px solid #171056 !important;
+  background-color: #fff ;
+  border-radius: 15px;
+}
+
+.rs-badge-independent {
+  background-color: #e75e16 !important;
+}
+
+.rs-calendar-table-header-cell, .rs-calendar-table-cell {
+  border: none !important;
+}
+
+.rs-calendar-table-cell-content {
+  height: 60px !important;
+  width: 60px !important;
+  font-size: medium;
+}
+
+.rs-btn-default {
+  background-color: #2e5697 !important;
+  color: white !important;
+} 
+
+.rs-btn-subtle {
+  color: #2e5697;
+  font-size: medium !important;
+  font-weight: 700;
+}
+
+.rs-btn-icon {
+  background-color: #ffc06e;
+  color: white;
+  padding: 3px !important;
+  border-radius: 100% !important;
+}
+
+.rs-calendar-table-header-cell-content {
+  color: #ca0b18;
+  font-size: larger;
+}
