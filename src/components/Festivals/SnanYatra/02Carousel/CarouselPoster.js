@@ -73,30 +73,29 @@ const MainPoster = () => {
         modules={[EffectCoverflow, Pagination, Autoplay]}
       >
         <SwiperSlide>
-          <img src="/Festivels/snanyatra/Screenshot(28).png" alt="Nature 1" />
+          <img src="/Festivels/snanyatra/img8.jpeg" alt="Nature 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Festivels/snanyatra/Screenshot(30).png" alt="Nature 2" />
+          <img src="/Festivels/snanyatra/img10.jpeg" alt="Nature 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Festivels/snanyatra/Screenshot(29).png" alt="Nature 3" />
-        </SwiperSlide>
-        {/* Additional slides if needed */}
-        {/* <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="Nature 4" />
+          <img src="/Festivels/snanyatra/img4.jpeg" alt="Nature 3" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="Nature 5" />
+          <img src="/Festivels/snanyatra/img5.jpeg" alt="Nature 4" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="Nature 6" />
+          <img src="/Festivels/snanyatra/img7.jpeg" alt="Nature 5" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="Nature 7" />
+          <img src="/Festivels/snanyatra/img9.jpeg" alt="Nature 6" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="Nature 8" />
-        </SwiperSlide> */}
+          <img src="/Festivels/snanyatra/img3.jpeg" alt="Nature 7" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/snanyatra/img11.jpeg" alt="Nature 8" />
+        </SwiperSlide>
       </StyledSwiper>
     </>
   );

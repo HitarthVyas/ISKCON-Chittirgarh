@@ -57,16 +57,6 @@ const DonationSection = () => {
   return (
     <>
       <div className="relative py-20">
-        <div
-          className="absolute inset-0 bg-gradient-to-b"
-          style={{
-            background: "#d9a7c7", // fallback for old browsers
-            background: "-webkit-linear-gradient(to top,  #d9a7c7 ,#ffffff)", // Chrome 10-25, Safari 5.1-6
-            background: "linear-gradient(to top,  #d9a7c7,#ffffff)", // W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
-            opacity: 0.8,
-          }}
-        ></div>
-
         <div className="relative">
           <div className="mx-3 text-center  p-2">
             <span
