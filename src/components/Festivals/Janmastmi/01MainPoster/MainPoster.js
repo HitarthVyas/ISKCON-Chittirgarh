@@ -12,7 +12,7 @@ const bar = Barlow({
 const images = [
   "/Festivels/Janmasthmi/RK.JPG",
   "/Festivels/Janmasthmi/srimati.png", 
-];
+]; 
 
 const zoomVariants = {
   initial: { scale: 1 },
@@ -39,11 +39,11 @@ const MainPoster = () => {
 
   return (
     <>
-     <div className="relative h-[80vh] w-full overflow-hidden">
+     <div className="relative h-[80vh] w-full overflow-hidden mt-2 md:mt-5">
         <AnimatePresence initial={false}>
           <motion.div
             key={currentImageIndex} // Use the index as key to trigger AnimatePresence
-            className="absolute top-0 left-0 h-full w-full bg-cover bg-center"
+            className="absolute top-0 left-0 h-full w-full bg-cover bg-center mt-10"
             style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
             initial="initial"
             animate="animate"
@@ -90,7 +90,7 @@ const MainPoster = () => {
           </div>
         </div>
       </div>
-      <div className="relative bg-[url('/Festivels/rathyatra/curve.svg')] h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"></div>
+      <div className="relative bg-[url('/Festivels/janmasthmi/curve.svg')] h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"></div>
 
       <JanmastmiDiscription />
     </>

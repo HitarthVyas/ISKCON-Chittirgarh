@@ -90,7 +90,7 @@ const MainPoster = () => {
           </div>
         </div>
       </div>
-      <div className="relative bg-[url('/Festivels/rathyatra/curve.svg')] h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"></div>
+      <div className="relative bg-[url('/Festivels/BalaramPurnima/curve.svg')] h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"></div>
       <BalaramPurnimaDescription />
     </>
   );

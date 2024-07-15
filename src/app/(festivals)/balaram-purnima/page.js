@@ -7,7 +7,7 @@ const BalaramPurnima = () => {
   return (
     <>
        <MainPoster />
-       <DonationSection />
+       <DonationSection /> 
     </>
   )
 }

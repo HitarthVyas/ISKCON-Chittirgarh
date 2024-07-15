@@ -29,7 +29,7 @@ const DonationSection = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-full">
+      <div className="flex flex-col items-center justify-center h-full text-[#ffffff]">
         <div className="max-w-[600px] w-full text-center ">
           <h2
             className={`text-[37px] font-bold leading-tight max-sm:text-[20px] p-2 m-0 ${autho.className}`}

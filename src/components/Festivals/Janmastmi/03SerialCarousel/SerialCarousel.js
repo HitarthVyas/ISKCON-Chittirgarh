@@ -48,48 +48,51 @@ const StyledSwiper = styled(Swiper)`
 `;
 
 const SerialCarousel = () => {
-    return (
-        <div className="mb-20">
-          <div className="text-center text-[32px] text-[#e82277] font-bold">
-            <h1 className={`${bar.className} tracking-widest`}>Krishna Janmashtami 2k23</h1>
-          </div>
-          <StyledSwiper
-            effect={"coverflow"}
-            grabCursor={true}
-            centeredSlides={true}
-            slidesPerView={"auto"}
-            coverflowEffect={{
-              rotate: 50,
-              stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: false,
-            }}
-            pagination={{ clickable: true }}
-            
-            modules={[EffectCoverflow, Pagination, Autoplay]}
-          >
-            <SwiperSlide>
-              <img src="/Festivels/janmasthmi/img10.JPG" alt="Nature 1" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/Festivels/janmasthmi/img2.JPG" alt="Nature 1" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/Festivels/janmasthmi/img3.JPG" alt="Nature 2" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/Festivels/janmasthmi/img4.JPG" alt="Nature 3" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/Festivels/janmasthmi/img6.JPG" alt="Nature 4" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/Festivels/janmasthmi/img9.JPG" alt="Nature 7" />
-            </SwiperSlide>
-          </StyledSwiper>
-        </div>
-      );
-}
+  return (
+    <div className="mb-20">
+      <div className="text-center text-[32px] text-[#e82277] font-bold">
+        <span
+          className={`text-[#ffffff] text-[28px] font-bold ${bar.className} tracking-widest`}
+        >
+          Krishna Janmashtami 2k24
+        </span>
+      </div>
+      <StyledSwiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        }}
+        pagination={{ clickable: true }}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
+      >
+        <SwiperSlide>
+          <img src="/Festivels/janmasthmi/img10.JPG" alt="Nature 1" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/janmasthmi/img2.JPG" alt="Nature 1" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/janmasthmi/img3.JPG" alt="Nature 2" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/janmasthmi/img4.JPG" alt="Nature 3" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/janmasthmi/img6.JPG" alt="Nature 4" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/janmasthmi/img9.JPG" alt="Nature 7" />
+        </SwiperSlide>
+      </StyledSwiper>
+    </div>
+  );
+};
 
-export default SerialCarousel
+export default SerialCarousel;
