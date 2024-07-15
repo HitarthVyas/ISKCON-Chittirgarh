@@ -62,7 +62,7 @@ const DiscriptionSection = () => {
         <div className="flex xl:flex-row flex-col lg:gap-16 gap-10 items-center justify-center">
           <motion.img
             ref={imageRef}
-            src="/Festivels/radhasthmi/radhasthmi.jpg"
+            src="/Festivels/snanyatra/img2.jpeg"
             className="max-h-[300px]"
             style={{ boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0)" }}
             initial={{ y: 100, opacity: 0 }}

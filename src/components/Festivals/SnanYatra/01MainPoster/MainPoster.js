@@ -8,9 +8,9 @@ const bar = Barlow({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], 
 });
 
-const images = [
+const images = [ 
   "/Festivels/snanyatra/img1.jpeg",
-  "/Festivels/snanyatra/jagannath-rath-yatra.jpg",
+  "/Festivels/snanyatra/img3.jpeg",
 ];
 
 const zoomVariants = {
