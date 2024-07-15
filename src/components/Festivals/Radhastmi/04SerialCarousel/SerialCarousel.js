@@ -48,55 +48,73 @@ const StyledSwiper = styled(Swiper)`
 `;
 
 const SerialCarousel = () => {
-    return (
-        <div className="mb-20">
-          <div className="text-center text-[32px] text-[#e82277] font-bold">
-            <h1 className={`${bar.className} tracking-widest`}>Radhashtami 2k23</h1>
-          </div>
-          <StyledSwiper
-            effect={"coverflow"}
-            grabCursor={true}
-            centeredSlides={true}
-            slidesPerView={"auto"}
-            coverflowEffect={{
-              rotate: 50,
-              stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: false,
-            }}
-            pagination={{ clickable: true }}
-            
-            modules={[EffectCoverflow, Pagination, Autoplay]}
-          >
-            <SwiperSlide>
-              <img src="/Festivels/snanyatra/Screenshot(28).png" alt="Nature 1" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/Festivels/snanyatra/Screenshot(30).png" alt="Nature 2" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/Festivels/snanyatra/Screenshot(29).png" alt="Nature 3" />
-            </SwiperSlide>
-            {/* Additional slides if needed */}
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="Nature 4" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="Nature 5" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="Nature 6" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="Nature 7" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="Nature 8" />
-            </SwiperSlide>
-          </StyledSwiper>
-        </div>
-      );
-}
+  return (
+    <div className="mb-20">
+      <div className="text-center text-[32px] text-[#e82277] font-bold">
+        <span
+          className={`text-[#e82277] text-[28px] font-bold ${bar.className} tracking-widest`}
+        >
+          Radhashtami 2k24
+        </span>
+      </div>
+      <StyledSwiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        }}
+        pagination={{ clickable: true }}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
+      >
+        <SwiperSlide>
+          <img src="/Festivels/snanyatra/Screenshot(28).png" alt="Nature 1" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/snanyatra/Screenshot(30).png" alt="Nature 2" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/snanyatra/Screenshot(29).png" alt="Nature 3" />
+        </SwiperSlide>
+        {/* Additional slides if needed */}
+        <SwiperSlide>
+          <img
+            src="https://swiperjs.com/demos/images/nature-4.jpg"
+            alt="Nature 4"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://swiperjs.com/demos/images/nature-5.jpg"
+            alt="Nature 5"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://swiperjs.com/demos/images/nature-6.jpg"
+            alt="Nature 6"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://swiperjs.com/demos/images/nature-7.jpg"
+            alt="Nature 7"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://swiperjs.com/demos/images/nature-8.jpg"
+            alt="Nature 8"
+          />
+        </SwiperSlide>
+      </StyledSwiper>
+    </div>
+  );
+};
 
-export default SerialCarousel
+export default SerialCarousel;

@@ -44,7 +44,7 @@ const MainPoster = () => {
             key={currentImageIndex} // Use the index as key to trigger AnimatePresence
             className="absolute top-0 left-0 h-full w-full bg-cover bg-center"
             style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
-            initial="initial"
+            initial="initial" 
             animate="animate"
             exit={{ opacity: 0 }}
             variants={zoomVariants}
@@ -89,7 +89,7 @@ const MainPoster = () => {
           </div>
         </div>
       </div>
-      <div className="relative bg-[url('/Festivels/rathyatra/curve.svg')] h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"></div> 
+      <div className="relative bg-[url('/Festivels/radhasthmi/curve.svg')] h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"></div> 
 
       <RadhatmiDiscription/>
     </>

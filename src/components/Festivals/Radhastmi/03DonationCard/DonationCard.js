@@ -53,11 +53,11 @@ const DonationCard = () => {
     <>
       <div className="flex flex-col items-center gap-8 p-8">
         <div className="text-center p-2">
-          <h2
-            className={`text-[32px] text-[#e82277] font-bold tracking-widest ${bar.className}`}
-          >
-            Donation Seva
-          </h2>
+        <span
+        className={`text-[#e82277] text-[28px] font-bold ${bar.className} tracking-widest`}
+      >
+        Donation Seva
+      </span>
         </div>
         <div className="flex flex-wrap justify-center gap-8 mt-4">
           {cardData.map((person, index) => (
