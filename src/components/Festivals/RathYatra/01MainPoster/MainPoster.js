@@ -14,8 +14,8 @@ const bar = Barlow({
 });
 
 const images = [
-  "/Festivels/rathyatra/poster1.jpg",
-  "/Festivels/rathyatra/puri-rath-yatra.jpg",
+  "/Festivels/rathyatra/img11.png", 
+  "/Festivels/rathyatra/img12.png",
 ];
 
 const zoomVariants = {
@@ -43,11 +43,11 @@ const MainPoster = () => {
 
   return (
     <>
-      <div className="relative h-[80vh] w-full overflow-hidden">
+      <div className="relative h-[100vh] w-full overflow-hidden mt-2 md:mt-5"> 
         <AnimatePresence initial={false}>
           <motion.div
             key={currentImageIndex} // Use the index as key to trigger AnimatePresence
-            className="absolute top-0 left-0 h-full w-full bg-cover bg-center"
+            className="absolute top-0 left-0 h-full w-full bg-cover bg-center mt-10"
             style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
             initial="initial"
             animate="animate"
@@ -56,7 +56,7 @@ const MainPoster = () => {
             transition={{ duration: 1.5 }} // Adjust duration for smooth transition
           />
         </AnimatePresence>
-        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 flex justify-center items-center flex-col">
+        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 flex justify-center items-center flex-col">
           <motion.h1
             className={`text-white text-6xl md:text-7xl text-center mt-20 ${bar.className}`}
             style={{

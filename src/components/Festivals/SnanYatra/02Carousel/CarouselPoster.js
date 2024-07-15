@@ -54,7 +54,7 @@ const MainPoster = () => {
         <span
           className={`text-[#e82277] text-[28px] font-bold ${bar.className} tracking-widest`}
         >
-          Snan Yatra 2k23
+          Snan Yatra 2k24
         </span>
       </div>
       <StyledSwiper

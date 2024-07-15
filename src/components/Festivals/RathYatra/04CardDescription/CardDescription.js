@@ -16,18 +16,14 @@ const bar = Barlow({
 const CardDescription = () => {
   return (
     <div
-      className=""
-      style={{
-        background: "linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #e1dfea 30%, #171056 50%)",
-      }}
     >
       <div>
         <div className="mx-3 text-center p-2">
-          <h2
-            className={`text-[32px] text-[#e82277] font-bold tracking-widest ${bar.className}`}
-          >
-            Donation Seva
-          </h2>
+        <span
+          className={`text-[#e82277] text-[28px] font-bold ${bar.className} tracking-widest`}
+        >
+          Donation Seva
+        </span>
         </div>
         <div className={`flex justify-center px-10 py-20`}>
           <div className={`flex flex-wrap justify-center gap-10`}>
