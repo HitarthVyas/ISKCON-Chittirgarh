@@ -39,11 +39,11 @@ const MainPoster = () => {
   return (
     <>
       {/* poster section  */}
-      <div className="relative h-[80vh] w-full overflow-hidden">
+      <div className="relative h-[80vh] w-full overflow-hidden mt-2"> 
         <AnimatePresence initial={false}>
           <motion.div
             key={currentImageIndex} // Use the index as key to trigger AnimatePresence
-            className="absolute top-0 left-0 h-full w-full bg-cover bg-center"
+            className="absolute top-0 left-0 h-full w-full bg-cover bg-center mt-10"
             style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
             initial="initial"
             animate="animate"

@@ -15,7 +15,7 @@ const ChoiceDonation = () => {
   };
   
   return (
-    <div className="flex justify-center items-center mb-20 mt-8 mx-80 max-[1000px]:mx-[20px]">
+    <div className="flex justify-center items-center mb-20 mt-8 mx-60 max-[1000px]:mx-[20px]">
     <div
       className="basis-3/5 max-2xl:basis-full  flex flex-col lg:flex-row p-5 lg:p-10 flex-wrap"
       style={{ boxShadow: "29px 29px 60px 0px rgba(0, 0, 0, 0.4)" }}

@@ -3,12 +3,11 @@ import React from "react";
 import "flowbite";
 import Image from "next/image";
 import Link from "next/link";
-import { Playfair_Display, Caveat ,Barlow} from "next/font/google";
+import { Playfair_Display, Caveat, Barlow } from "next/font/google";
 import PaymentSection from "../05PaymentSection/PaymentSection";
 import { Carousel } from "flowbite";
 import CarouselPoster from "@/components/Festivals/SnanYatra/02carousel/CarouselPoster";
 import ChoiceDonation from "../../RathYatra/05ChoiceDonation/ChoiceDonation";
-
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -20,7 +19,7 @@ const caveat1 = Caveat({
 
 const bar = Barlow({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400","500","600","700","800","900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 const feed = [
@@ -70,7 +69,11 @@ const DonationSection = () => {
 
         <div className="relative">
           <div className="mx-3 text-center  p-2">
-            <h2 className={`text-[32px] text-[#e82277] font-bold tracking-widest ${bar.className}`}>Donation Seva</h2>
+            <span
+              className={`text-[#e82277] text-[28px] font-bold ${bar.className} tracking-widest`}
+            >
+              Donation Seva
+            </span>
           </div>
           <div className="flex flex-wrap justify-center mt-7 pb-10 px-[150px] max-[1100px]:px-[20px] max-[330px]:mx-2">
             {/* Rendering the first row */}
@@ -94,13 +97,13 @@ const DonationSection = () => {
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
                     {item.price}
                   </h5>
-                  
-                    <button
-                      className={`bg-[#fb3f3f] font-medium text-[20px] text-[#ffffff] py-2 px-4 md:py-2 md:px-4 rounded-lg drop-shadow-xl ${playfair.className} transition-transform hover:scale-105`}
-                      onClick={() => handleScrollToPaymentSection()}
-                    >
-                      Donate Now
-                    </button>
+
+                  <button
+                    className={`bg-[#fb3f3f] font-medium text-[20px] text-[#ffffff] py-2 px-4 md:py-2 md:px-4 rounded-lg drop-shadow-xl ${playfair.className} transition-transform hover:scale-105`}
+                    onClick={() => handleScrollToPaymentSection()}
+                  >
+                    Donate Now
+                  </button>
                 </div>
               </div>
             ))}
