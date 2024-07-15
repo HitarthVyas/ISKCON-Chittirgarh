@@ -43,7 +43,8 @@ const RadhatmiDiscription = () => {
     <div
       className={`mt-20 w-[200px] h-[200px] md:w-[300px] md:h-[300px] ${styles["background-image"]}`}
       style={{
-        backgroundImage: "url('/Festivels/rathyatra/Mandala_BR.png')",
+        backgroundImage: "url('/Festivels/rathyatra/Mandala_BR.png')", 
+        zIndex: 0
       }}
     >
       {/* This div uses class names from CSS module */} 
@@ -64,7 +65,7 @@ const RadhatmiDiscription = () => {
             ref={imageRef}
             src="/Festivels/radhasthmi/radhasthmi.jpg"
             className="max-h-[300px]"
-            style={{ boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0)" }}
+            style={{ zIndex: 10 , boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0)" }}
             initial={{ y: 100, opacity: 0 }}
             animate={inView ? { y: 0, opacity: 1 } : {}}
             transition={{ duration: 1, ease: "easeInOut" }}
