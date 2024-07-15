@@ -34,7 +34,7 @@ export const headerOptions = [
     ],
   },
   {
-    title: "Festival",
+    title: "Festival", 
     options: [
       { subtitle: "Snan Yatra", link: "snan-yatra" },
       { subtitle: "Rath Yatra", link: "rath-yatra" },

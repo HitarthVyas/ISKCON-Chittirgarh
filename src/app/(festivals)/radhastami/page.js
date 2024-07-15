@@ -3,7 +3,7 @@ import MainPoster from '@/components/Festivals/Radhastmi/01MainPoster/MainPoster
 import DonationcCard from '@/components/Festivals/Radhastmi/03DonationCard/DonationCard'
 import React from 'react'
 
-const page = () => {
+const Radhastami = () => {
   return (
     <div>
         <MainPoster />
@@ -12,4 +12,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Radhastami

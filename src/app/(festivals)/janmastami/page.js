@@ -5,7 +5,7 @@ import DonationSection from '@/components/Festivals/Janmastmi/04DonationSection/
 
 import React from 'react'
 
-const Janmastmi = () => {
+const Janmastami = () => {
   return (
     <div>
         <MainPoster />
@@ -14,4 +14,4 @@ const Janmastmi = () => {
   )
 }
 
-export default Janmastmi
+export default Janmastami
