@@ -9,7 +9,7 @@ const bar = Barlow({
 });
 
 const images = [
-  "/Festivels/snanyatra/snanyatrapic3.jpg",
+  "/Festivels/snanyatra/img1.jpeg",
   "/Festivels/snanyatra/jagannath-rath-yatra.jpg",
 ];
 
