@@ -63,7 +63,7 @@ const BalaramPurnimaDescription = () => {
           <div className="flex xl:flex-row flex-col lg:gap-16 gap-10 items-center justify-center">
             <motion.img
               ref={imageRef}
-              src="/Festivels/radhasthmi/radhasthmi.jpg"
+              src="/Festivels/BalaramPurnima/balaram.jpg"
               className="max-h-[300px]"
               style={{ zIndex: 10 , boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0)" }}
               initial={{ y: 100, opacity: 0 }}
