@@ -7,6 +7,7 @@ import { Carousel } from "flowbite";
 import PaymentSection from "../../SnanYatra/05PaymentSection/PaymentSection";
 import CarouselSlide from "../03CarouselSlide/CarouselSlide";
 import ChoiceDonation from "../../RathYatra/05ChoiceDonation/ChoiceDonation";
+import Objectives from "../02Objectives/Objectives";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -60,43 +61,12 @@ const DonationSection = () => {
           <div className="mx-3 text-center  p-2">
             <h2 className={`text-[28px] text-[#e82277] font-bold tracking-widest ${bar.className}`}>Donation Seva</h2>
           </div>
-          <div className="flex flex-wrap justify-center mt-7 pb-10 px-[150px] max-[1100px]:px-[20px] max-[330px]:mx-2">
-            {/* Rendering the first row */}
-            {firstRow.map((item, index) => (
-              <div
-                key={item.id}
-                className="shadow-lg max-w-xs bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 mx-4 mb-6 w-full sm:w-1/2 md:w-1/3 flex-shrink-0 hover:scale-110 transition-transform duration-500"
-              >
-                <Image
-                  className="rounded-t-lg"
-                  src={item.img}
-                  alt={item.Title}
-                  width={imageSize.width}
-                  height={imageSize.height}
-                  layout="responsive"
-                />
-                <div className="p-5 flex flex-col items-center">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                    {item.Title}
-                  </h5>
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                    {item.price}
-                  </h5>
-                  
-                    <button
-                      className={`bg-[#fb3f3f] font-medium text-[20px] text-[#ffffff] py-2 px-4 md:py-2 md:px-4 rounded-lg drop-shadow-xl ${playfair.className} transition-transform hover:scale-105`}
-                      onClick={() => handleScrollToPaymentSection()}
-                    >
-                      Donate Now
-                    </button>
-                </div>
-              </div>
-            ))}
+          <div className="flex flex-wrap justify-center mt-7 pb-10 px-[10px] max-[1100px]:px-[20px] max-[330px]:mx-2">
+           <Objectives />
           </div>
+
           {/* donate your choice section  */}
           <ChoiceDonation />
-
-          <CarouselSlide />
           <div className="w-full h-16" id="paymentSection"></div>
           <div className=" mx-[60px] max-sm:mx-[2px] flex flex-col mb-20">
             <PaymentSection />
