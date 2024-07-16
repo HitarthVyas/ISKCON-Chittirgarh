@@ -67,7 +67,7 @@ const MainPoster = () => {
           </motion.h1>
           <div style={{ marginTop: "20px" }}>
             <motion.button
-              onClick={() => handleScrollToPaymentSection()}
+              onClick={() => handleScrollToPaymentSection()} 
               style={{
                 border: "2px solid yellow",
                 background: "transparent",
