@@ -39,7 +39,7 @@ const feed = [
     id: "3",
     img: "/Festivels/snanyatra/abhishek.jpg",
     Title: "Abhishekam",
-    price: "₹ 1101",
+    price: "₹ 1501",
   },
 ];
 
