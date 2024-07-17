@@ -52,7 +52,7 @@ const SerialCarousel = () => {
     <div className="mb-20">
       <div className="text-center text-[32px] text-[#e82277] font-bold">
         <span
-          className={`text-[#e82277] text-[28px] font-bold ${bar.className} tracking-widest`}
+          className={`text-[#ffffff] text-[28px] font-bold ${bar.className} tracking-widest`}
         >
           Radhashtami 2k24
         </span>

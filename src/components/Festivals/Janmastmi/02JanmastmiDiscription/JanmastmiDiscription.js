@@ -44,7 +44,7 @@ const JanmastmiDiscription = () => {
         className={`mt-20 w-[200px] h-[200px] md:w-[300px] md:h-[300px] ${styles["background-image"]}`}
         style={{
           backgroundImage: "url('/Festivels/rathyatra/Mandala_BR.png')",
-          zIndex: 0
+          zIndex: 0,
         }}
       >
         {/* This div uses class names from CSS module */}
@@ -65,90 +65,46 @@ const JanmastmiDiscription = () => {
               ref={imageRef}
               src="/Festivels/radhasthmi/radhasthmi.jpg"
               className="max-h-[300px] rounded-xl border-gray-300 shadow-lg"
-                style={{
-                  zIndex: 10,
-                  boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0.4)",
-                }}
-                initial={{ y: 100, opacity: 0 }}
-                animate={inView ? { y: 0, opacity: 1 } : {}}
-                transition={{ duration: 1, ease: "easeInOut" }}
+              style={{
+                zIndex: 10,
+                boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0.4)",
+              }}
+              initial={{ y: 100, opacity: 0 }}
+              animate={inView ? { y: 0, opacity: 1 } : {}}
+              transition={{ duration: 1, ease: "easeInOut" }}
             />
             <div
-              className="text-gray-700 text-justify text-sm md:text-[14px]"
+              className="text-[#121210] text-justify text-sm md:text-[14px]"
               style={{ boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0)" }}
             >
               <p className="mt-5">
                 <b>
-                  The Snana Yatra, also known as Dev Snana Purnima, is a sacred
-                  bathing festival of deities observed on the Purnima (full
-                  moon) day of the Hindu month of Jyeshtha.
+                  Janmashtami is a vibrant celebration at ISKCON temples, where
+                  devotees come together to honor the appearance of Lord Krishna
+                  with deep devotion. Festivities last throughout the day,
+                  featuring special activities, games for children, and
+                  beautifully adorned Deities.
                 </b>{" "}
-                According to Skanda Purana, this auspicious event commemorates
-                the appearance of Lord Jagannath and holds significant
-                importance for Vaishnavas. There are innumerable pastimes of the
-                Lord Jagannath.
+                prasadam is prepared and offered as bhoga before being shared
+                among devotees. Fasting helps purify minds and hearts,
+                culminating in a midnight celebration that marks Krishna&apos;s
+                birth.
               </p>
               <p className="mt-5">
-                Once upon a time in Dwarka, Mother Rohini was telling the queens
-                of the Lord about the pastimes of the Lord with Radharani and
-                other Gopis in Vrindavana. Hearing the pastimes narrated by
-                Mother Rohini, Lord Krishna, Baladeva, and Subhadra became so
-                delighted, overwhelmed with an emotional touch, and surprised
-                that their eyes became wide, mouths remained open, and other
-                parts became small and inserted inside their body.{" "}
+                Devotees engage in kirtans, perform aartis, and read from the
+                Srimad Bhagavatam to strengthen their spiritual connection.
+                Special attractions include the midnight abhishek, cultural
+                programs, and lively processions..{" "}
                 <b>
-                  In this manner, Lord Krishna became Jagannath. When Devarshi
-                  Narad took Darshan of this transcendental form, he requested
-                  Lord to provide an opportunity to the whole world to have the
-                  Darshan of this unique form.
+                  The atmosphere is filled with love and devotion, inspiring
+                  everyone to embrace Krishna consciousness through joyful
+                  participation in the festivities.
                 </b>
-              </p>
-              <p
-                className="mt-5 text-[#2b2859] text-[18px] cursor-pointer relative"
-                onClick={openModal}
-              >
-                <strong className="hover:text-green-700">Read More</strong>
-                <span className="absolute left-0 bottom-0 h-0.5 bg-[#2b2859] transition-all duration-300 transform scale-x-0 origin-left group-hover:scale-x-100"></span>
               </p>
             </div>
           </div>
         </div>
       </div>
-      {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.3 }}
-            className="bg-white p-6 rounded-lg max-w-lg w-full relative"
-            style={{ boxShadow: "29px 29px 60px 0px rgba(0, 0, 0, 0.4)" }}
-          >
-            <motion.button
-              className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-3xl"
-              onClick={closeModal}
-              initial={{ scale: 1 }}
-              whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              &times;
-            </motion.button>
-            <h3 className="text-xl font-semibold mb-4">
-              More About Snan Yatra
-            </h3>
-            <p className="text-justify">
-              After a certain period, King Indradyumna fulfilled this desire of
-              Devarshi Narad. Then, Lord, after coming in the dream of King
-              Indradyumna, says- ‘Hey King, I tend to appear on the Purnima
-              particular date of the Jyeshtha month. So, on that day after
-              consecration, I performed my worship with a full heart. From then,
-              King Indradyumna from that day inaugurated the Snana Yatra
-              festival. In Jagannath Puri, many festivals are celebrated for
-              Lord Jagannath, and the beginning of all these festivals
-              originates from the Snana Yatra.
-            </p>
-          </motion.div>
-        </div>
-      )}
     </div>
   );
 };

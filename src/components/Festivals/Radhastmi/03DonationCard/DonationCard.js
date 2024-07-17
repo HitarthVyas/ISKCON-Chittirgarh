@@ -54,7 +54,7 @@ const DonationCard = () => {
       <div className="flex flex-col items-center gap-8 p-8">
         <div className="text-center p-2">
         <span
-        className={`text-[#e82277] text-[28px] font-bold ${bar.className} tracking-widest`}
+        className={`text-[#ffffff] text-[28px] font-bold ${bar.className} tracking-widest`}
       >
         Donation Seva
       </span>

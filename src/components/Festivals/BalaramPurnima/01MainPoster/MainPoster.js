@@ -10,8 +10,8 @@ const bar = Barlow({
 });
 
 const images = [
-  "/Festivels/BalaramPurnima/1.png",
-  "/Festivels/BalaramPurnima/2.png",
+  "/Festivels/BalaramPurnima/main.jpg",
+  "/Festivels/BalaramPurnima/newbanner.png",
 ];
 
 const zoomVariants = {
@@ -23,7 +23,7 @@ const MainPoster = () => {
   const handleScrollToPaymentSection = () => {
     const paymentSection = document.getElementById("paymentSection");
     if (paymentSection) {
-      paymentSection.scrollIntoView({ behavior: "smooth" });
+      paymentSection.scrollIntoView({ behavior: "smooth" }); 
     }
   };
   

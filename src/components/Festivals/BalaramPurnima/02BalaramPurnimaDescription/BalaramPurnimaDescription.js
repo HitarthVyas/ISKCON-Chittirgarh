@@ -63,8 +63,8 @@ const BalaramPurnimaDescription = () => {
           <div className="flex xl:flex-row flex-col lg:gap-16 gap-10 items-center justify-center">
             <motion.img
               ref={imageRef}
-              src="/Festivels/BalaramPurnima/balaram.jpg"
-              className="max-h-[300px] rounded-xl border-gray-300 shadow-lg"
+              src="/Festivels/BalaramPurnima/new1.png"
+              className="max-h-[300px]  rounded-xl border-gray-300 shadow-lg"
                 style={{
                   zIndex: 10,
                   boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0.4)",
@@ -79,76 +79,20 @@ const BalaramPurnimaDescription = () => {
             >
               <p className="mt-5">
                 <b>
-                  The Snana Yatra, also known as Dev Snana Purnima, is a sacred
-                  bathing festival of deities observed on the Purnima (full
-                  moon) day of the Hindu month of Jyeshtha.
+                Balarama Jayanti, or Balarama Appearance Day, is celebrated on the full moon day of Shravana (August/September), marking the auspicious appearance of Lord Balarama, the elder brother of Lord Krishna.
                 </b>{" "}
-                According to Skanda Purana, this auspicious event commemorates
-                the appearance of Lord Jagannath and holds significant
-                importance for Vaishnavas. There are innumerable pastimes of the
-                Lord Jagannath.
+                This year, it falls on August 31. ISKCON temples are beautifully decorated, and devotees gather to celebrate this special day. Lord Balarama, known as Haldhar, represents strength and devotion, and his deep connection to Krishna is significant for devotees.
               </p>
               <p className="mt-5">
-                Once upon a time in Dwarka, Mother Rohini was telling the queens
-                of the Lord about the pastimes of the Lord with Radharani and
-                other Gopis in Vrindavana. Hearing the pastimes narrated by
-                Mother Rohini, Lord Krishna, Baladeva, and Subhadra became so
-                delighted, overwhelmed with an emotional touch, and surprised
-                that their eyes became wide, mouths remained open, and other
-                parts became small and inserted inside their body.{" "}
+              The festivities honor Balarama&apos;s divine pastimes, including his victories over demons like Dhenukasura and Pralambasura. As the original Guru Tattva, he embodies spiritual authority and loyalty. Devotees pray for Balarama’s blessings, seeking strength to serve Lord Krishna with full devotion.{" "}
                 <b>
-                  In this manner, Lord Krishna became Jagannath. When Devarshi
-                  Narad took Darshan of this transcendental form, he requested
-                  Lord to provide an opportunity to the whole world to have the
-                  Darshan of this unique form.
+                Balarama Jayanti is a cherished occasion to deepen our connection with these divine personalities and celebrate their eternal bond.
                 </b>
-              </p>
-              <p
-                className="mt-5 text-[#2b2859] text-[18px] cursor-pointer relative"
-                onClick={openModal}
-              >
-                <strong className="hover:text-green-700">Read More</strong>
-                <span className="absolute left-0 bottom-0 h-0.5 bg-[#2b2859] transition-all duration-300 transform scale-x-0 origin-left group-hover:scale-x-100"></span>
               </p>
             </div>
           </div>
         </div>
       </div>
-      {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.3 }}
-            className="bg-white p-6 rounded-lg max-w-lg w-full relative"
-            style={{ boxShadow: "29px 29px 60px 0px rgba(0, 0, 0, 0.4)" }}
-          >
-            <motion.button
-              className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-3xl"
-              onClick={closeModal}
-              initial={{ scale: 1 }}
-              whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              &times;
-            </motion.button>
-            <h3 className="text-xl font-semibold mb-4">
-              More About Snan Yatra
-            </h3>
-            <p className="text-justify">
-              After a certain period, King Indradyumna fulfilled this desire of
-              Devarshi Narad. Then, Lord, after coming in the dream of King
-              Indradyumna, says- ‘Hey King, I tend to appear on the Purnima
-              particular date of the Jyeshtha month. So, on that day after
-              consecration, I performed my worship with a full heart. From then,
-              King Indradyumna from that day inaugurated the Snana Yatra
-              festival. In Jagannath Puri, many festivals are celebrated for
-              Lord Jagannath, and the beginning of all these festivals 
-              originates from the Snana Yatra.
-            </p>
-          </motion.div>
-        </div>
-      )}
     </div>
   );
 };

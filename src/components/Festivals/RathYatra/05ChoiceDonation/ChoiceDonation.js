@@ -31,7 +31,7 @@ const ChoiceDonation = () => {
           </div>
           <div>
             <p
-              className={`font-medium text-[20px] text-justify ${playfair.className}`}
+              className={`font-medium text-[20px] text-[#000000] text-justify ${playfair.className}`}
             >
               Of all types of services, service of Lord Krishna is best,
               and better than the worship of Lord Viṣṇu is the service

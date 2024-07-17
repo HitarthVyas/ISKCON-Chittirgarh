@@ -11,18 +11,25 @@ const play = Playfair({
 });
 
 const Objectives = () => {
+  const handleScrollToPaymentSection = () => {
+    const paymentSection = document.getElementById("paymentSection");
+    if (paymentSection) {
+      paymentSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="p-14 px-0 sm:px-5">
       <div className="flex flex-wrap justify-evenly gap-10 m-auto max-w-screen-xl">
         {objectives.map((activity, i) => (
-          <ObjCard key={i} activity={activity} i={i} />
+          <ObjCard key={i} activity={activity} i={i} handleScrollToPaymentSection={handleScrollToPaymentSection} />
         ))}
       </div>
     </div>
   );
 };
 
-const ObjCard = ({ activity, i }) => {
+const ObjCard = ({ activity, i, handleScrollToPaymentSection }) => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
@@ -60,7 +67,11 @@ const ObjCard = ({ activity, i }) => {
           {activity.price}
         </h5>
         <div className="flex justify-center">
-          <button className="px-4 py-2 mt-3 text-white bg-blue-500 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:bg-blue-600">
+          <button
+            type="button"
+            onClick={() => handleScrollToPaymentSection()}
+            className="px-4 py-2 mt-3 text-white bg-blue-500 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:bg-blue-600"
+          >
             Donate Now
           </button>
         </div>
