@@ -10,7 +10,7 @@ const bar = Barlow({
 });
 
 const images = [
-  "/Festivels/radhasthmi/baner.png",
+  "/Festivels/radhasthmi/4.png",
   "/Festivels/Janmasthmi/srimati.png",
 ];
 
