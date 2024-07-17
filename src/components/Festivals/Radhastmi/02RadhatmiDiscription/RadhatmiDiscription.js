@@ -64,11 +64,14 @@ const RadhatmiDiscription = () => {
           <motion.img
             ref={imageRef}
             src="/Festivels/radhasthmi/radhasthmi.jpg"
-            className="max-h-[300px]"
-            style={{ zIndex: 10 , boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0)" }}
-            initial={{ y: 100, opacity: 0 }}
-            animate={inView ? { y: 0, opacity: 1 } : {}}
-            transition={{ duration: 1, ease: "easeInOut" }}
+            className="max-h-[300px] rounded-xl border-gray-300 shadow-lg"
+                style={{
+                  zIndex: 10,
+                  boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0.4)",
+                }}
+                initial={{ y: 100, opacity: 0 }}
+                animate={inView ? { y: 0, opacity: 1 } : {}}
+                transition={{ duration: 1, ease: "easeInOut" }}
           />
           <div
             className="text-gray-700 text-justify text-sm md:text-[14px]"
