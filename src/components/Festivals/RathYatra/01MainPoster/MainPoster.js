@@ -14,8 +14,8 @@ const bar = Barlow({
 });
 
 const images = [
-  "/Festivels/rathyatra/img11.png", 
-  "/Festivels/rathyatra/img12.png",
+  "/Festivels/rathyatra/img10.jpg", 
+  "/Festivels/rathyatra/img11.jpg",
 ];
 
 const zoomVariants = {
