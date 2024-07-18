@@ -6,13 +6,13 @@ import JanmastmiDiscription from "../02JanmastmiDiscription/JanmastmiDiscription
 
 const bar = Barlow({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], 
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 const images = [
-  "/Festivels/Janmasthmi/RK.JPG",
-  "/Festivels/Janmasthmi/srimati.png",
-]; 
+  "/Festivels/Janmasthmi/img15.JPG",
+  "/Festivels/Janmasthmi/img13.jpg",
+];
 
 const zoomVariants = {
   initial: { scale: 1 },
@@ -26,7 +26,7 @@ const MainPoster = () => {
       paymentSection.scrollIntoView({ behavior: "smooth" });
     }
   };
-  
+
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -39,7 +39,7 @@ const MainPoster = () => {
 
   return (
     <>
-     <div className="relative h-[90vh] w-full overflow-hidden mt-2 md:mt-5">
+      <div className="relative h-[90vh] w-full overflow-hidden mt-2 md:mt-5">
         <AnimatePresence initial={false}>
           <motion.div
             key={currentImageIndex} // Use the index as key to trigger AnimatePresence
@@ -67,7 +67,7 @@ const MainPoster = () => {
           </motion.h1>
           <div style={{ marginTop: "20px" }}>
             <motion.button
-              onClick={() => handleScrollToPaymentSection()} 
+              onClick={() => handleScrollToPaymentSection()}
               style={{
                 border: "2px solid yellow",
                 background: "transparent",
@@ -90,7 +90,10 @@ const MainPoster = () => {
           </div>
         </div>
       </div>
-      <div className="relative bg-[url('/Festivels/janmasthmi/curve.svg')] h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"></div>
+      <div
+        className="relative h-[150px] bg-cover bg-center w-full z-10 mt-[-149px]"
+        style={{ backgroundImage: "url('/Festivels/janmasthmi/curve.svg')" }}
+      ></div>
 
       <JanmastmiDiscription />
     </>

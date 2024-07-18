@@ -90,6 +90,12 @@ const SerialCarousel = () => {
         <SwiperSlide>
           <img src="/Festivels/janmasthmi/img9.JPG" alt="Nature 7" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/janmasthmi/img17.JPG" alt="Nature 7" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Festivels/janmasthmi/img18.JPG" alt="Nature 7" />
+        </SwiperSlide>
       </StyledSwiper>
     </div>
   );

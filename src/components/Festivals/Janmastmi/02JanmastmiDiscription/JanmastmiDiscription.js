@@ -63,7 +63,7 @@ const JanmastmiDiscription = () => {
           <div className="flex xl:flex-row flex-col lg:gap-16 gap-10 items-center justify-center">
             <motion.img
               ref={imageRef}
-              src="/Festivels/radhasthmi/radhasthmi.jpg"
+              src="/Festivels/janmasthmi/img8.jpg"
               className="max-h-[300px] rounded-xl border-gray-300 shadow-lg"
               style={{
                 zIndex: 10,
