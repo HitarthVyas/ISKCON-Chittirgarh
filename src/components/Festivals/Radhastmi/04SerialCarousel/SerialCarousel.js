@@ -73,44 +73,13 @@ const SerialCarousel = () => {
         modules={[EffectCoverflow, Pagination, Autoplay]}
       >
         <SwiperSlide>
-          <img src="/Festivels/snanyatra/Screenshot(28).png" alt="Nature 1" />
+          <img src="/Festivels/radhasthmi/img6.jpg" alt="Nature 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Festivels/snanyatra/Screenshot(30).png" alt="Nature 2" />
+          <img src="/Festivels/radhasthmi/img8.jpg" alt="Nature 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Festivels/snanyatra/Screenshot(29).png" alt="Nature 3" />
-        </SwiperSlide>
-        {/* Additional slides if needed */}
-        <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-4.jpg"
-            alt="Nature 4"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-5.jpg"
-            alt="Nature 5"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-6.jpg"
-            alt="Nature 6"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-7.jpg"
-            alt="Nature 7"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-8.jpg"
-            alt="Nature 8"
-          />
+          <img src="/Festivels/radhasthmi/img7.jpg" alt="Nature 3" />
         </SwiperSlide>
       </StyledSwiper>
     </div>

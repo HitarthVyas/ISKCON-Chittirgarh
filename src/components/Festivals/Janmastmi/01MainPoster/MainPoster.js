@@ -11,7 +11,7 @@ const bar = Barlow({
 
 const images = [
   "/Festivels/Janmasthmi/RK.JPG",
-  "/Festivels/Janmasthmi/srimati.png", 
+  "/Festivels/Janmasthmi/srimati.png",
 ]; 
 
 const zoomVariants = {
@@ -39,7 +39,7 @@ const MainPoster = () => {
 
   return (
     <>
-     <div className="relative h-[80vh] w-full overflow-hidden mt-2 md:mt-5">
+     <div className="relative h-[90vh] w-full overflow-hidden mt-2 md:mt-5">
         <AnimatePresence initial={false}>
           <motion.div
             key={currentImageIndex} // Use the index as key to trigger AnimatePresence

@@ -73,13 +73,13 @@ const CarouselSlide = () => {
         modules={[EffectCoverflow, Pagination, Autoplay]}
       >
         <SwiperSlide>
-          <img src="/Festivels/snanyatra/Screenshot(28).png" alt="Nature 1" />
+          <img src="/Festivels/BalaramPurnima/img1.JPG" alt="Nature 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Festivels/snanyatra/Screenshot(30).png" alt="Nature 2" />
+          <img src="/Festivels/BalaramPurnima/img2.JPG" alt="Nature 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Festivels/snanyatra/Screenshot(29).png" alt="Nature 3" />
+          <img src="/Festivels/BalaramPurnima/img3.JPG" alt="Nature 3" />
         </SwiperSlide>
         {/* Additional slides if needed */}
         {/* <SwiperSlide>

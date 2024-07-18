@@ -67,6 +67,7 @@ const DonationSection = () => {
 
           {/* donate your choice section  */}
           <ChoiceDonation />
+          <CarouselSlide />
           <div className="w-full h-16" id="paymentSection"></div>
           <div className=" mx-[60px] max-sm:mx-[2px] flex flex-col mb-20">
             <PaymentSection />
