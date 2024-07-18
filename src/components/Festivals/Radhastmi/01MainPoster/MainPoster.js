@@ -11,7 +11,7 @@ const bar = Barlow({
 
 const images = [
   "/Festivels/Janmasthmi/srimati.png",
-  "/Festivels/radhasthmi/new3.png",
+  "/Festivels/radhasthmi/img9.png", 
 ];
 
 const zoomVariants = {
