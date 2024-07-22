@@ -22,7 +22,7 @@ const MainPoster = () => {
 
   return (
     <div className="">
-      <div className="relative h-[90vh] max-[1043px]:h-[100vh]  w-full">
+      <div className="relative h-[90vh] max-[1043px]:h-[100vh] mt-10 w-full">
         <div className="absolute inset-0 bg-[url('/Donation/AnnaDaan/anna-dan-H.jpg')] bg-cover bg-top"></div>
         <div className="absolute inset-0 bg-black opacity-60"></div>{" "}
         {/* Semi-transparent overlay */}

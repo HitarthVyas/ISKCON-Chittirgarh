@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Barlow ,Architects_Daughter } from "next/font/google";
+import { Barlow, Architects_Daughter } from "next/font/google";
 import {
   Card,
   CardHeader,
@@ -28,19 +28,19 @@ const item = [
     id: "1",
     number: "Donate 251 Meals",
     Price: "₹ 6,275",
-    content:  "~ Do your part and contribute this amount.",
+    content: "~ Do your part and contribute this amount.",
   },
   {
     id: "2",
     number: "Donate 501 Meals",
     Price: "₹ 12,275",
-    content:  "~ Do your part and contribute this amount.",
+    content: "~ Do your part and contribute this amount.",
   },
   {
     id: "3",
     number: "Donate 1001 Meals",
     Price: "₹ 25,025",
-    content:  "~ Do your part and contribute this amount.",
+    content: "~ Do your part and contribute this amount.",
   },
   {
     id: "4",
@@ -79,7 +79,7 @@ const DonationPlan = () => {
       paymentSection.scrollIntoView({ behavior: "smooth" });
     }
   };
-  
+
   return (
     <>
       {/* card */}
@@ -88,24 +88,28 @@ const DonationPlan = () => {
           {donationOptions.map((option, index) => (
             <motion.div
               key={index}
-              className="flex-1 min-w-[250px] p-4 h-72 rounded-lg bg-[#d94f44]"
-              whileHover={{ scale: 1.05 }} // Add scale animation on hover
-              transition={{ duration: 0.3 }} // Add transition duration for smooth animation
+              className="flex-1 min-w-[250px] p-4 h-82 rounded-lg bg-[#d94f44]"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
               style={{ boxShadow: "60px 60px 120px 0px rgba(0, 0, 0, 0.5)" }}
             >
-              <div className="px-2">
-                <h2 className="font-bold mb-2 text-center ">
+              <div className="px-2 text-center">
+                <span className="font-bold mb-2">
                   <span className="text-[23px] block mb-4 text-[#FFD700]">
                     Donate {option.meals} Meal
                   </span>
-                  <span className= {`${Architects.className} text-[20px] text-[#ffffff]`}> {option.content}</span>
-                </h2>
-                <p className="text-center ">
+                </span>
+                <span
+                  className={`${Architects.className} text-[20px] text-[#ffffff]`}
+                >
+                  {option.content}
+                </span>
+                <p className="text-center">
                   <span className="text-[28px] font-bold text-[#FFD700]">
                     {option.amount}
                   </span>
                 </p>
-                <div className="mt-5 flex justify-center items-center ">
+                <div className="mt-5 flex justify-center items-center">
                   <button
                     type="button"
                     className="px-6 py-3.5 text-base font-medium text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -122,9 +126,7 @@ const DonationPlan = () => {
 
       {/* donation section start */}
       <div className="bg-[url('/Donation/NityaSeva/NITYA_SEWA.jpg')] bg-cover bg-center w-full relative">
-        <div
-         
-        >
+        <div>
           <div className="flex flex-col items-center mb-[40px]">
             {item.map((item) => (
               <React.Fragment key={item.id}>
@@ -143,7 +145,10 @@ const DonationPlan = () => {
                         className={`text-[18px] font-bold text-white ${bar.className}`}
                         style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.5)" }}
                       >
-                        <span className="text-[#FFD700] text-[24px]">{item.Price}</span> {item.content}
+                        <span className="text-[#FFD700] text-[24px]">
+                          {item.Price}
+                        </span>{" "}
+                        {item.content}
                       </span>
                     </div>
                   </div>
